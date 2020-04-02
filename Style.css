@@ -1,0 +1,120 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin:0%;
+    
+}
+#image {
+    background-image: url(Nercy.jpg);
+    background-position:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin:0%;
+
+}
+.overlay{
+    background: linear-gradient(208.59deg, 
+    rgba(232, 65, 65, 0.8) 4.28%,
+     rgba(160, 2, 235, 0.45) 121.2%);
+    min-height: 669px;
+   
+}
+ul.list li {
+    display: inline-block;
+    margin: 16px;
+}  
+.list a  {
+    text-decoration: none;
+    color: black;
+    font-size:bold;
+}
+ul.list{
+   float: right;
+}
+ul.icon{
+    float: left;
+}
+ul.icon img {
+    width: 6em; 
+    height: auto;
+    margin-top: 1em;
+}
+ul.icon li{
+    list-style:none;
+}
+.clear {
+   clear: both;
+  }
+.form-control{
+    border-radius:15em;
+    border-color: rgb(124, 124, 96);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color:  rgba(248, 248, 246, 0.849);;
+ }
+
+ h1{
+    font: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 5em;
+    padding-top:3em;
+  
+}
+p{
+    margin-left:10em;
+    color: white;
+}
+.input-group li{
+    display: inline-block;
+    margin-left:12%;
+}
+.button{
+    border-radius:15em;
+    padding-left: 35px;
+    padding-right:35px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: solid 1px;
+    border: solid 1px white;
+    font-weight: 100px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.enter{
+    border-radius:15em;
+    padding-left: 35px;
+    padding-right:35px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: -5em;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    font-weight: 100px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul.Lower li{
+    display: inline-block;
+    list-style: none;
+    padding: 1em;
+}
+ul.Lower{
+    background-color: rgba(248, 248, 246, 0.76);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: -7em;
+}
+p.up{
+    font-size: large;
+    font-weight: bold;
+}
+p.down{
+    font-size: smaller;
+}
